@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Glass</title>
+	<link rel="stylesheet" href="./fontawesome/css/all.css">
+</head>
+
+<style type="text/css">
+	
+	body {
+    	font-family: -apple-system, BlinkMacSystemFont, sans-serif;
+    	font-size: 10px;
+	}
+
+
+	.container {
+		position:absolute;
+		background-color: #fff;
+		width: 250px;
+		height: 541px;
+		max-width:100%;
+        max-height:100%;
+		left:0; right:0;
+        top:0; bottom:0;
+
+        margin:auto;
+        box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box;
+        overflow:auto;
+	}
+
+	.header {
+		background-color: #f9f9f9;
+		padding: 10px;
+	}
+
+	#status-bar {
+		display: grid;
+  		grid-template-columns: auto auto auto;
+  		background-color: #f9f9f9;
+  		font-size: 9px;
+  		padding: 5px;
+	}
+
+	#left {
+		text-align: left;
+	}
+
+	#middle {
+		text-align: center;
+
+	}
+
+	#right {
+		text-align: right;
+	}
+
+	#page-title {
+		font-size: 24px;
+		font-weight: bold;
+		line-height: 1;
+		margin-bottom: 10px;
+	}
+
+	.header input {
+		background-color: #efefef;
+		border: none;
+		border-radius: 8px;
+		width: 100%;
+		padding-top: 7px; padding-bottom: 7px;
+		padding-left: 7px;
+		margin:auto;
+        box-sizing: border-box;
+            -webkit-box-sizing: border-box;
+            -moz-box-sizing: border-box; 
+        outline: none;
+        cursor: text;
+	}
+
+	#letter {
+		background-color: #efefef;
+		font-weight: bold;
+		line-height: 1;
+		padding-left: 10px; padding-right: 10px; 
+		padding-top: 5px; padding-bottom: 5px;
+	}
+
+	#model {
+		background-color: #fff;
+		font-size: 12px;
+		line-height: 1;
+		line-height: 1;
+		padding-top: 10px; padding-bottom: 10px;
+		margin-left: 10px; margin-right: 10px;
+		
+	}
+
+	#model:first-child {
+		border-bottom: 0;
+	}
+
+	#model:last-child {
+		border-bottom: 0;
+
+	}
+
+	::-webkit-scrollbar {
+	    width: 0px;
+	    background: transparent; /* make scrollbar transparent */
+	}
+
+
+</style>
+
+<body>
+
+	<div class="container">
+		<div id="status-bar">
+
+				<div id="left"><i class="far fa-signal"></i> GLASS<i class="fas fa-signal-4"></i></div>
+				<div id="middle">11:20PM</div>
+				<div id="right">13% <i class="fal fa-battery-empty"></i></div>
+				
+		</div>
+
+		<div class="header">
+
+			<div id="page-title">Contacts</div>
+
+			<input type="text" name="search" placeholder="Search">
+
+		</div>
+
+		<div id="letter">B</div>
+			<div id="model"> Marianne <b>Burgess</b> </div>
+
+		<div id="letter">D</div>
+			<div id="model">  Samira <b>Dean</b></div>
+
+		<div id="letter">E</div>
+			<div id="model">  Sid <b>Elliott</b></div>
+
+		<div id="letter">F</div>
+			<div id="model"> Alima <b>Faulkner</b></div>
+
+		<div id="letter">G</div>
+			<div id="model">  Rikesh <b>Gale</b></div>	
+			<div id="model">  Enoch <b>Gardner</b></div>
+
+		<div id="letter">H</div>
+			<div id="model">  Samia <b>Hail</b></div>	
+			<div id="model">  Amber <b>Hope</b></div>
+			<div id="model">  Omer <b>Howells</b></div>		
+
+		<div id="letter">N</div>
+			<div id="model">  Jameel <b>Nunez</b></div>
+
+		<div id="letter">P</div>
+			<div id="model">  Finnlay <b>Pena</b></div>
+			<div id="model"> Oakley <b>Preece</b></div>
+
+		<div id="letter">S</div>
+			<div id="model"> Adnaan <b>Sheehan</b></div>
+
+		<div id="letter">T</div>
+			<div id="model"> Mehdi <b>Terrell</b></div>
+		
+	</div>
+
+</body>
+</html>
